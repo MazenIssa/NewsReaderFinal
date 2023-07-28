@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.NewsReader" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+
+        <item name="colorPrimary">@color/bbc_red</item>
+        <item name="colorPrimaryVariant">@color/bbc_red</item>
+        <item name="colorOnPrimary">@color/bbc_white</item>
+
+        <item name="colorSecondary">@color/bbc_gray</item>
+        <item name="colorSecondaryVariant">@color/bbc_gray</item>
+        <item name="colorOnSecondary">@color/bbc_black</item>
+
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+    </style>
+</resources>
